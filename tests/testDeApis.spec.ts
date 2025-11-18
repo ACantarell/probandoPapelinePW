@@ -1,5 +1,4 @@
 import { test, expect, request, Page } from '@playwright/test';
-import { log } from 'console';
 
 test('Probando Api con metodo GET', async ({ request }) => {
     

@@ -28,7 +28,7 @@ test('Probando Api con metodo Post', async ({ request }) => {
 })
 
 
-test.only('Probando una api de pokemon', async ({ request, page }) => {
+test('Probando una api de pokemon', async ({ request, page }) => {
     
     const responseApi2 = await request.get("https://pokeapi.co/api/v2/pokemon?limit=100000&offset=0")
     
